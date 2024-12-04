@@ -59,5 +59,8 @@ from langchain.chat_models import ChatOpenAI           # chat completion api to 
 llm = ChatOpenAI()
 
 qa_chain = retrieval_qa.from_chain_type(llm, retriver= new_db.as_retriever())
-res= qa_chain({"query":"are there any tax deduction for online gaming"})
-print(res)
+#res= qa_chain({"query":"are there any tax deduction for online gaming"})
+
+def ask(user_query):
+    res= qa_chain({"query": user_query})
+    return res["result"]
