@@ -1,8 +1,6 @@
 # Chat-with-PDF-using-LangChain-
 
-Here’s a sample README file for your LLM project:
 
-AI-Powered PDF Query System
 
 
 This project is an AI-Powered Query System built using Large Language Models (LLMs) to efficiently extract and answer queries from PDF documents. It leverages LangChain, FAISS, and OpenAI GPT-4 to provide semantic search and accurate responses.
